@@ -1,7 +1,60 @@
 body {
     text-align: center;
+    background-color: grey;
 }
 .logo {
     height: 200px;
     width: 200px;
+    padding-top: 50px;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 18px;
+    list-style-type: none;
+
+}
+.menu-items {
+    text-decoration: none;
+    color: gold;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 75px;
+    color: gold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 45px;
+    color: purple;
+}
+
+.skill-list li {
+    color: white;
+    font-size: 22px;
+    list-style-position: inside;
+    padding-bottom: 10px;
+    
+}
+.skill-list li::marker {
+    color: gold;
+}
+
+.instructions {
+    color: white;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top:5px;
+}
+
+.buttons button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: purple;
+}
+.buttons a {
+    color: white;
+    font-size: 15px;
 }
